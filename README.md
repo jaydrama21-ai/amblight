@@ -50,6 +50,18 @@ with a couple of personal changes layered on top:
   here: forcing those off while actually driving would be unsafe and
   illegal, and unlike the park/running lights there's no "off, but only
   while parked" variant of the function to fall back to.
+- Police and Chase on Tails no longer flash the actual reverse/brake
+  functions - those only have one function code for both sides together,
+  so every flash just retriggers the tail light's own built-in sequential
+  "coming home" fill animation on both sides at once, and which side looks
+  lit at any instant comes down to where that animation happened to be,
+  not anything the app is choosing (confirmed on video: the same
+  Lights/Pattern recorded two different-looking results). The running
+  lights don't have that animation, so Tails now flashes parkL/parkR for
+  a clean left-right instead, with a brief brake pulse standing in for
+  "the middle light" on Police (brake is still the only address for that
+  third light, so the pulse also flashes the main brake lamps each side,
+  not only the middle one).
 
 ## Installing
 
