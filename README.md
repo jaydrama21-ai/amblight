@@ -34,6 +34,22 @@ with a couple of personal changes layered on top:
   current selection, one after another, no pause - the closest thing to
   lights "moving" a one-function-at-a-time body controller can do) all run
   over them too.
+- A fifth **Lights** choice, **Indicators** - brake and reverse only have one
+  function code for both sides together, so they can't sweep left to right,
+  but some aftermarket tails play their own sequential "flowing" animation
+  off the turn-signal circuit specifically. Picking Indicators here is how to
+  see that, without also flashing the headlights/fog/cornering lights.
+- The Strobe panel is wider (900 px) and Light show narrower (636 px), so the
+  six-button Lights row (All lights/High beam/flash length/Reverse/Tails/
+  Indicators) has room without crowding the Pattern row underneath it.
+- A **Lights off** toggle for the running/position lights, which the car
+  gives no switch for at all - once it's on, it stays on (parked or not)
+  until it's switched off again, re-asserting the lights off every half
+  second since the body controller only accepts a function change for a
+  limited time at a stretch. Headlights, brake and reverse aren't offered
+  here: forcing those off while actually driving would be unsafe and
+  illegal, and unlike the park/running lights there's no "off, but only
+  while parked" variant of the function to fall back to.
 
 ## Installing
 
