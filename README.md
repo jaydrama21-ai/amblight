@@ -15,8 +15,6 @@ with a couple of personal changes layered on top:
 - A **While driving** toggle next to Lever start, so the strobe can be
   triggered with the flasher lever while rolling (for filming), without
   needing to touch the screen.
-- A **Reverse lights** strobe pattern (the reverse lamp flashing on/off,
-  nothing else).
 - The **Light show**'s length is a Length button (15/30/60 s) instead of
   being fixed at 15 s.
 - Fixed a bug where picking "Park lights" and pressing **Start strobe** (or
@@ -26,12 +24,16 @@ with a couple of personal changes layered on top:
 - The **Light show** no longer touches the park/running lights (aftermarket
   tails that play a startup animation on that circuit would replay it every
   pass through the show).
-- A **Reverse + brake** strobe pattern - alternates just those two, and
-  never touches the park/running-light function either.
+- **Reverse** and **Reverse + brake ("Tails")** lights, that never touch the
+  park/running-light function either.
 - Strobe tab layout: Lever start/While driving moved up, and Flash length
-  plus the Reverse/Tails pattern buttons now sit in the same row as All
-  lights/High beam, freeing the Pattern row back down to Police/Strobe/In
-  turn/Park at a comfortable width.
+  plus Reverse/Tails now sit in the same "Lights" row as All lights/High
+  beam, freeing the Pattern row back down to a comfortable width.
+- Reverse and Tails are a **Lights** choice, not their own fixed pattern -
+  Police, Strobe, In turn and the new **Chase** pattern (every light in the
+  current selection, one after another, no pause - the closest thing to
+  lights "moving" a one-function-at-a-time body controller can do) all run
+  over them too.
 
 ## Installing
 
