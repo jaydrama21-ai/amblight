@@ -57,13 +57,16 @@ with a couple of personal changes layered on top:
   lit at any instant comes down to where that animation happened to be,
   not anything the app is choosing (confirmed on video: the same
   Lights/Pattern recorded two different-looking results). The running
-  lights don't have that animation, so Tails now flashes parkL, a brief
-  brake pulse standing in for "the middle light", then parkR, another
-  brake pulse - on Chase that loops with no pause between laps, on Police
-  it bursts four of each side with a pause at the end, same rhythm as
+  lights don't have that animation, so Tails now flashes a brief brake
+  pulse standing in for "the middle light", then parkR, then parkL - one
+  way round (middle, right, left, repeat) rather than bouncing back and
+  forth - on Chase that loops with no pause between laps, on Police it
+  bursts four of each in turn with a pause at the end, same rhythm as
   every other Police entry. Brake is still the only address for that
   third/center light, so the pulse also flashes the main brake lamps each
-  side, not only the middle one.
+  side, not only the middle one. This needs the car actually on (parkL/
+  parkR won't do anything otherwise) - Strobe and In turn on Tails are
+  unchanged (still reverse/brake) and keep working with the car off.
 
 ## Installing
 
