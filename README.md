@@ -28,6 +28,10 @@ with a couple of personal changes layered on top:
   pass through the show).
 - A **Reverse + brake** strobe pattern - alternates just those two, and
   never touches the park/running-light function either.
+- Strobe tab layout: Lever start/While driving moved up, and Flash length
+  plus the Reverse/Tails pattern buttons now sit in the same row as All
+  lights/High beam, freeing the Pattern row back down to Police/Strobe/In
+  turn/Park at a comfortable width.
 
 ## Installing
 
