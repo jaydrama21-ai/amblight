@@ -23,6 +23,11 @@ with a couple of personal changes layered on top:
   starting it with the flasher lever) silently ran the Police pattern
   instead, because the pattern whitelist that feeds the Start button and
   the lever hadn't been updated when Park lights was added.
+- The **Light show** no longer touches the park/running lights (aftermarket
+  tails that play a startup animation on that circuit would replay it every
+  pass through the show).
+- A **Reverse + brake** strobe pattern - alternates just those two, and
+  never touches the park/running-light function either.
 
 ## Installing
 
