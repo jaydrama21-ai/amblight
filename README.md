@@ -64,9 +64,14 @@ with a couple of personal changes layered on top:
   bursts four of each in turn with a pause at the end, same rhythm as
   every other Police entry. Brake is still the only address for that
   third/center light, so the pulse also flashes the main brake lamps each
-  side, not only the middle one. This needs the car actually on (parkL/
-  parkR won't do anything otherwise) - Strobe and In turn on Tails are
-  unchanged (still reverse/brake) and keep working with the car off.
+  side, not only the middle one.
+- Police and Chase on Tails now also watch whether the engine's running
+  (the nearest signal this app has to "is the car actually on"): with it
+  off, parkL/parkR do nothing (no accessory power at the bulb, even though
+  the diagnostic write itself is still acknowledged), so both fall back to
+  the plain reverse/brake toggle Strobe and In turn on Tails always use -
+  no real left or right exists without the running lights, so that's the
+  two full-width colours, not the sweep.
 
 ## Installing
 
