@@ -15,6 +15,14 @@ with a couple of personal changes layered on top:
 - A **While driving** toggle next to Lever start, so the strobe can be
   triggered with the flasher lever while rolling (for filming), without
   needing to touch the screen.
+- A **Reverse lights** strobe pattern (the reverse lamp flashing on/off,
+  nothing else).
+- The **Light show**'s length is a Length button (15/30/60 s) instead of
+  being fixed at 15 s.
+- Fixed a bug where picking "Park lights" and pressing **Start strobe** (or
+  starting it with the flasher lever) silently ran the Police pattern
+  instead, because the pattern whitelist that feeds the Start button and
+  the lever hadn't been updated when Park lights was added.
 
 ## Installing
 
